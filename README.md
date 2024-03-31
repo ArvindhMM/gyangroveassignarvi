@@ -7,3 +7,4 @@ Features
 Recommended Shows can be scrolled horizontally and in Upcoming events each page loads up as the user scrolls to the end of the webpage, this is done using eventhandling of mouse scroll
 
 The project is responsive and is usable by mobile and desktop
+# gyangroveassignarvi
