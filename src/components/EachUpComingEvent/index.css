@@ -1,0 +1,44 @@
+.eachUpComingEventContainer {
+  border-style: solid;
+  border-color: #989090;
+  margin: 7px;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 3px;
+  width: 22vw;
+  height: 30vh;
+}
+.UpcomingEvent_imageContainer {
+  color: white;
+}
+.UpcomingEvent_showNameAndLocationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px;
+}
+.UpcomingEvent_showHeading {
+  font-size: clamp(8px, 12px, 15px);
+}
+.UpcomingEvent_showLocationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.UpcomingEvent_showCity {
+  font-size: clamp(7px, 11px, 14px);
+}
+.UpcomingEvent_weatherAndDistance {
+  font-size: clamp(7px, 11px, 14px);
+}
+.upcomingEventDate {
+  display: block;
+  background-color: black;
+  opacity: 0.5;
+}
+.eventsDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

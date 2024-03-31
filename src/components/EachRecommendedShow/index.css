@@ -1,0 +1,46 @@
+.eachRecommendedShow {
+  border-style: solid;
+  border-color: #989090;
+}
+.showDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.showNameAndLocationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px;
+}
+.showLocationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.showHeading {
+  font-size: clamp(8px, 12px, 15px);
+}
+.showCity {
+  font-size: clamp(7px, 11px, 14px);
+}
+.dateWeatherAndDistanceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 2px;
+}
+.date {
+  font-size: clamp(8px, 12px, 15px);
+}
+.weatherAndDistance {
+  font-size: clamp(7px, 11px, 14px);
+}
+
+@media only screen and (max-width: 768px) {
+  .eachRecommendedShow {
+    width: 300px;
+    height: 400px;
+  }
+}
